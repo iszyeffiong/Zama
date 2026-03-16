@@ -1,6 +1,8 @@
-# 🔐 FHEVM Comprehensive Hub
+# 🔐 FHEVM Dev Hub
 
-Welcome to the **FHEVM Comprehensive Hub** — the most complete guide to building privacy-preserving smart contracts on FHEVM.
+> *The complete guide to building privacy-preserving smart contracts on FHEVM — examples, concepts, patterns, and tooling in one place.*
+
+Welcome to **FHEVM Dev Hub** — the most complete resource for building privacy-preserving smart contracts on FHEVM.
 
 This GitBook synthesizes content from three community resources:
 - [fhEVM Hub](https://sun-labs.gitbook.io/fhevm-hub) by Sun Labs
