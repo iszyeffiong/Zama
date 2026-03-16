@@ -34,3 +34,8 @@ User-submitted encrypted inputs always use `FHE.fromExternal()`:
 // externalEuint64 → euint64
 euint64 val = FHE.fromExternal(encryptedInput, inputProof);
 ```
+
+
+---
+
+📝 **Ready to test your knowledge?** → [Take the FHE Operations Quiz](../quizzes/fhe-operations-quiz.md)

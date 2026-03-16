@@ -81,3 +81,8 @@ const encrypted = await fhevm
   .add64(value)
   .encrypt();
 ```
+
+
+---
+
+📝 **Ready to test your knowledge?** → [Take the Core Concepts Quiz](../quizzes/core-concepts-quiz.md)

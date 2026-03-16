@@ -34,3 +34,8 @@ contract FHEIfThenElse is ZamaEthereumConfig {
 - `ebool` cannot be used in a Solidity `if()` — always use `FHE.select`
 - Both `a` and `b` are computed; only the selected result is returned
 - Grant permissions on the result handle, not on the input handles
+
+
+---
+
+📝 **Ready to test your knowledge?** → [Take the Basic Examples Quiz](../../quizzes/examples-basic-quiz.md)

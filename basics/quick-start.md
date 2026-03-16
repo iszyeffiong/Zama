@@ -117,3 +117,8 @@ Yes for scaffolding. Only `npm install` needs internet to download dependencies.
 
 **Do I need to install anything globally?**
 No — `npx` handles everything.
+
+
+---
+
+📝 **Ready to test your knowledge?** → [Take the Quiz](../quizzes/quick-start-quiz.md)

@@ -46,3 +46,8 @@ contract FHECounter is ZamaEthereumConfig {
 - `FHE.add` returns a **new** handle — the old one is unchanged
 - You must call `FHE.allowThis` on the new handle before storing
 - Permissions do not transfer from old handle to new one automatically
+
+
+---
+
+📝 **Ready to test your knowledge?** → [Take the Basic Examples Quiz](../../quizzes/examples-basic-quiz.md)

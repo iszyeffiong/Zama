@@ -82,3 +82,8 @@ Before every FHE operation, ask:
 - [ ] Did I call `FHE.allow(handle, user)` for every user who should be able to decrypt?
 - [ ] Did I call `FHE.allowTransient()` before passing a handle to another contract?
 - [ ] Did I re-grant permissions on **new** handles produced by FHE operations?
+
+
+---
+
+📝 **Ready to test your knowledge?** → [Take the Core Concepts Quiz](../quizzes/core-concepts-quiz.md)

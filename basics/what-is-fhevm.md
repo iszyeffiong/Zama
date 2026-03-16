@@ -41,3 +41,8 @@ User (off-chain)                Contract (on-chain)         FHE Coprocessor
 - **fhevm-solidity** — the Solidity library (`@fhevm/solidity`)
 - **FHEVM** — the EVM-compatible network with FHE coprocessor
 - **Hardhat plugin** (`@fhevm/hardhat-plugin`) — local mock for testing
+
+
+---
+
+📝 **Ready to test your knowledge?** → [Take the Quiz](../quizzes/what-is-fhevm-quiz.md)

@@ -36,3 +36,8 @@ const balance = await fhevm.userDecryptEuint(
 ## Rule
 
 Decryption always happens **off-chain**. View functions can return handles; never try to return plaintext from an encrypted value in Solidity.
+
+
+---
+
+📝 **Ready to test your knowledge?** → [Take the Anti-Patterns Quiz](../quizzes/anti-patterns-quiz.md)

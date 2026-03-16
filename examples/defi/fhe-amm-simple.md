@@ -78,3 +78,8 @@ This approach (used by EPOOL) keeps reserves private at the cost of added comple
 ```bash
 npx create-fhevm-example fhe-amm-simple
 ```
+
+
+---
+
+📝 **Ready to test your knowledge?** → [Take the Advanced Examples Quiz](../../quizzes/examples-advanced-quiz.md)

@@ -101,3 +101,8 @@ function getBalance() external view returns (euint64) {
     return balances[msg.sender];
 }
 ```
+
+
+---
+
+📝 **Ready to test your knowledge?** → [Take the Core Concepts Quiz](../quizzes/core-concepts-quiz.md)

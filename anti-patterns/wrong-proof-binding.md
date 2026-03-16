@@ -36,3 +36,8 @@ await contract.connect(user).submit(encrypted.handles[0], encrypted.inputProof);
 - Hardcoding a proxy address instead of the implementation address
 - Using the deployer address instead of the actual caller (`user.address`)
 - Generating the proof before the contract is deployed (address not yet known)
+
+
+---
+
+📝 **Ready to test your knowledge?** → [Take the Anti-Patterns Quiz](../quizzes/anti-patterns-quiz.md)

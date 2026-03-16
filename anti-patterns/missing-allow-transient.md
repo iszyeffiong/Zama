@@ -48,3 +48,8 @@ FHE.allowTransient(handle, address(fromToken));
 // FHE.allowTransient(handle, address(toToken));  // Missing!
 swapContract.swap(fromToken, toToken, handle);  // Reverts
 ```
+
+
+---
+
+📝 **Ready to test your knowledge?** → [Take the Anti-Patterns Quiz](../quizzes/anti-patterns-quiz.md)

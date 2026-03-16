@@ -73,3 +73,8 @@ function transfer(address to, externalEuint64 amount, bytes calldata proof) exte
 - **Both branches are computed** — gas cost is constant regardless of condition
 - **No information leakage** — which branch was taken is never revealed
 - **Nested select is fine** — chain multiple `FHE.select` calls for complex logic
+
+
+---
+
+📝 **Ready to test your knowledge?** → [Take the FHE Operations Quiz](../quizzes/fhe-operations-quiz.md)

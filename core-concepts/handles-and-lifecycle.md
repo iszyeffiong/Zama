@@ -74,3 +74,8 @@ FHE.allowTransient(handle, otherContract);
 ```
 
 Cached (stored) handles outlive transient permissions. A handle stored in a mapping remains decryptable even after the `allowTransient` that created it expires.
+
+
+---
+
+📝 **Ready to test your knowledge?** → [Take the Core Concepts Quiz](../quizzes/core-concepts-quiz.md)

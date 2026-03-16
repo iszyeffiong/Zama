@@ -57,3 +57,8 @@ expect(plaintext).to.equal(42n);
 - Always call `FHE.allowThis` before storing a handle
 - `retrieve()` returns a `euint64` handle, not a number
 - Decryption happens off-chain using the FHEVM SDK
+
+
+---
+
+📝 **Ready to test your knowledge?** → [Take the Basic Examples Quiz](../../quizzes/examples-basic-quiz.md)

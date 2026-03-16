@@ -31,3 +31,8 @@ euint64 accessLevel = FHE.select(
 ## Why Branch-Free?
 
 FHE.select evaluates both branches. This is intentional — it prevents timing or gas-based side channels that could leak which branch was taken.
+
+
+---
+
+📝 **Ready to test your knowledge?** → [Take the Anti-Patterns Quiz](../quizzes/anti-patterns-quiz.md)

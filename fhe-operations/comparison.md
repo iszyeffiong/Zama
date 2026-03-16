@@ -35,3 +35,8 @@ You can compare encrypted values against plaintext constants:
 ebool isZero    = FHE.eq(balance, uint64(0));
 ebool isOverCap = FHE.gt(amount, uint64(MAX_AMOUNT));
 ```
+
+
+---
+
+📝 **Ready to test your knowledge?** → [Take the FHE Operations Quiz](../quizzes/fhe-operations-quiz.md)

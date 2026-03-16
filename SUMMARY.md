@@ -98,3 +98,13 @@
 ## Reference
 * [Full Example Map](resources/example-map.md)
 * [Resources & Links](resources/links.md)
+
+## Quizzes
+* [What is FHEVM?](quizzes/what-is-fhevm-quiz.md)
+* [FHE 101](quizzes/fhe-101-quiz.md)
+* [Quick Start](quizzes/quick-start-quiz.md)
+* [Core Concepts](quizzes/core-concepts-quiz.md)
+* [FHE Operations](quizzes/fhe-operations-quiz.md)
+* [Anti-Patterns & Pitfalls](quizzes/anti-patterns-quiz.md)
+* [Basic Examples](quizzes/examples-basic-quiz.md)
+* [Advanced Examples](quizzes/examples-advanced-quiz.md)

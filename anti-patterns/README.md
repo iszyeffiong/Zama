@@ -13,3 +13,8 @@ This section documents the most common mistakes when writing FHEVM contracts, wi
 | 5 | [Wrong proof binding](wrong-proof-binding.md) | `fromExternal` reverts unexpectedly |
 | 6 | [Dividing by encrypted](encrypted-division.md) | Unsupported operation error |
 | 7 | [Missing `allowTransient`](missing-allow-transient.md) | Cross-contract call reverts |
+
+
+---
+
+📝 **Ready to test your knowledge?** → [Take the Anti-Patterns Quiz](../quizzes/anti-patterns-quiz.md)

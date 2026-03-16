@@ -37,3 +37,8 @@ euint64 rotrResult = FHE.rotr(a, k);   // rotate right by plaintext k
 ```
 
 > The shift/rotation amount `k` must be a **plaintext** value.
+
+
+---
+
+📝 **Ready to test your knowledge?** → [Take the FHE Operations Quiz](../quizzes/fhe-operations-quiz.md)

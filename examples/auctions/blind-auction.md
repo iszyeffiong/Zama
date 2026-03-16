@@ -56,3 +56,8 @@ contract BlindAuction is ZamaEthereumConfig {
 ```bash
 npx create-fhevm-example blind-auction
 ```
+
+
+---
+
+📝 **Ready to test your knowledge?** → [Take the Advanced Examples Quiz](../../quizzes/examples-advanced-quiz.md)

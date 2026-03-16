@@ -51,3 +51,8 @@ function submit(externalEuint64 encryptedValue, bytes calldata inputProof) exter
     // Now value is a verified, usable handle
 }
 ```
+
+
+---
+
+📝 **Ready to test your knowledge?** → [Take the Core Concepts Quiz](../quizzes/core-concepts-quiz.md)

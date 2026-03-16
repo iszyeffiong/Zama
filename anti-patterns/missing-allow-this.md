@@ -41,3 +41,8 @@ function increment() external {
 ## Rule
 
 Every handle you intend to keep across transactions must have `FHE.allowThis()` called on it before the transaction ends.
+
+
+---
+
+📝 **Ready to test your knowledge?** → [Take the Anti-Patterns Quiz](../quizzes/anti-patterns-quiz.md)

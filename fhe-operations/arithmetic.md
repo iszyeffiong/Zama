@@ -38,3 +38,8 @@ FHE.div(FHE.asEuint64(7), 2) → 3 (not 3.5)
 ```
 
 In AMMs or other financial contracts, very small input amounts may produce zero output. Always enforce minimum amounts in production.
+
+
+---
+
+📝 **Ready to test your knowledge?** → [Take the FHE Operations Quiz](../quizzes/fhe-operations-quiz.md)

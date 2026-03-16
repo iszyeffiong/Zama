@@ -23,3 +23,8 @@ The key insight: the sale condition is evaluated with FHE without revealing the 
 ```bash
 npx create-fhevm-example dutch-auction
 ```
+
+
+---
+
+📝 **Ready to test your knowledge?** → [Take the Advanced Examples Quiz](../../quizzes/examples-advanced-quiz.md)

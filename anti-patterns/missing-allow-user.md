@@ -31,3 +31,8 @@ function compute(externalEuint64 input, bytes calldata proof) external {
 ## Note on Revocation
 
 Granting and then revoking access does **not** invalidate a handle the user already received. If `FHE.allow(result, user)` was called in a previous transaction, the user can still decrypt that specific handle even after revocation.
+
+
+---
+
+📝 **Ready to test your knowledge?** → [Take the Anti-Patterns Quiz](../quizzes/anti-patterns-quiz.md)
