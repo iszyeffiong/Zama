@@ -145,4 +145,16 @@ README.md  (brief explanation of your design choices)
 
 ---
 
-✅ **[Take the Week 1 Quiz](../../quizzes/week-1-quiz.md)** before submitting your homework.
+✅ **[Take the Week 1 Quiz](https://forms.gle/Q7o3oJXBw253x1xw9)** before submitting your homework.
+
+---
+
+## 📝 Before You Submit
+
+Complete the Week 1 Quiz on Tally first:
+
+👉 [Open Week 1 Quiz](https://forms.gle/Q7o3oJXBw253x1xw9)
+
+Paste your quiz score in your homework submission README.
+
+

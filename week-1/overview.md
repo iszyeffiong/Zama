@@ -51,3 +51,13 @@ By the end of Week 1, participants will be able to:
 ---
 
 📋 [Week 1 Homework →](homework/week-1-homework.md) | ✅ [Week 1 Quiz →](../quizzes/week-1-quiz.md)
+
+---
+
+## 📝 Week 1 Quiz
+
+Take the quiz to confirm your understanding before submitting homework:
+
+👉 [Open Week 1 Quiz on Tally](https://tally.so/r/___WEEK1_QUIZ_ID___)
+
+> Aim for 80% or higher before submitting. See [Tally Quiz Setup Guide](../resources/tally-quiz-setup.md) for the full question list.

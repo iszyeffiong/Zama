@@ -48,3 +48,13 @@
 ---
 
 📋 [Week 3 Homework →](homework/week-3-homework.md) | ✅ [Week 3 Quiz →](../quizzes/week-3-quiz.md)
+
+---
+
+## 📝 Week 3 Quiz
+
+Take the quiz to confirm your understanding before submitting homework:
+
+👉 [Open Week 3 Quiz on Tally](https://tally.so/r/___WEEK3_QUIZ_ID___)
+
+> Aim for 80% or higher before submitting. See [Tally Quiz Setup Guide](../resources/tally-quiz-setup.md) for the full question list.

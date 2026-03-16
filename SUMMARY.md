@@ -5,6 +5,7 @@
 * [Curriculum Map](resources/curriculum-map.md)
 * [Starter Repositories](resources/starter-repos.md)
 * [Grading Rubrics](resources/grading-rubrics.md)
+* [Tally Quiz Setup Guide](resources/tally-quiz-setup.md)
 
 ## Week 1 — FHE Foundations & First Contracts
 * [Week 1 Overview & Milestones](week-1/overview.md)

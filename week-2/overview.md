@@ -50,3 +50,13 @@ By the end of Week 2, participants will be able to:
 ---
 
 📋 [Week 2 Homework →](homework/week-2-homework.md) | ✅ [Week 2 Quiz →](../quizzes/week-2-quiz.md)
+
+---
+
+## 📝 Week 2 Quiz
+
+Take the quiz to confirm your understanding before submitting homework:
+
+👉 [Open Week 2 Quiz on Tally](https://tally.so/r/___WEEK2_QUIZ_ID___)
+
+> Aim for 80% or higher before submitting. See [Tally Quiz Setup Guide](../resources/tally-quiz-setup.md) for the full question list.

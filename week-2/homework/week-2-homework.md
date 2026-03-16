@@ -64,3 +64,15 @@ it("tallies become publicly decryptable after endVoting")
 it("rejects vote with wrong contract in proof")
 it("rejects vote with wrong sender in proof")
 ```
+
+---
+
+## 📝 Before You Submit
+
+Complete the Week 2 Quiz on Tally first:
+
+👉 [Open Week 2 Quiz](https://forms.gle/8Weaz9AUBsFyPNgE9)
+
+Paste your quiz score in your homework submission README.
+
+

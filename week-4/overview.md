@@ -44,3 +44,13 @@
 ---
 
 📋 [Capstone Project →](homework/week-4-capstone.md) | ✅ [Week 4 Quiz →](../quizzes/week-4-quiz.md)
+
+---
+
+## 📝 Week 4 Quiz
+
+Take the quiz to confirm your understanding before submitting homework:
+
+👉 [Open Week 4 Quiz on Tally](https://tally.so/r/___WEEK4_QUIZ_ID___)
+
+> Aim for 80% or higher before submitting. See [Tally Quiz Setup Guide](../resources/tally-quiz-setup.md) for the full question list.

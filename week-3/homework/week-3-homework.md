@@ -67,3 +67,14 @@ it("highest bid is publicly decryptable after reveal")
 it("bidder can update their bid")
 it("refund claimable by non-winner after reveal")
 ```
+
+---
+
+## 📝 Before You Submit
+
+Complete the Week 3 Quiz on Tally first:
+
+👉 [Open Week 3 Quiz](https://forms.gle/AMm95YPwTqtrga8r5)
+
+Paste your quiz score in your homework submission README.
+

@@ -97,3 +97,13 @@ Push to GitHub and submit:
 - `EncryptedEscrow` — multi-party escrow with hidden deposit amounts
 - `PrivateOrderBook` — on-chain limit orders with encrypted prices
 - `ConfidentialDAO` — DAO where member voting power is hidden
+
+---
+
+## 📝 Before You Submit
+
+Complete the Week 4 Quiz on Tally first:
+
+👉 [Open Week 4 Quiz](https://forms.gle/wamC1PGr2ctParhy8)
+
+Include your quiz score in your capstone submission README.
