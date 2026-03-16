@@ -1,7 +1,7 @@
 # 🔐 FHEVM Dev Bootcamp
 
-### *Build confidential smart contracts. Ship production-ready privacy dApps on Zama Protocol.*
-pitch Video:https://youtu.be/lqXmx0zp21M
+### *Build confidential smart contracts. Ship production-ready privacy dApps on Zama Protocol.* <br>
+pitch Video:https://youtu.be/lqXmx0zp21M <br>
 gitbook website: https://israel-iszy2336s-organization.gitbook.io/fhevm-dev-hub/
 ---
 
