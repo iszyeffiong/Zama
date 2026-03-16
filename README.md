@@ -1,7 +1,8 @@
 # 🔐 FHEVM Dev Bootcamp
 
 ### *Build confidential smart contracts. Ship production-ready privacy dApps on Zama Protocol.*
-
+pitch Video:https://youtu.be/lqXmx0zp21M
+gitbook website: https://israel-iszy2336s-organization.gitbook.io/fhevm-dev-hub/
 ---
 
 > **4 weeks. 40+ hands-on examples. Zero cryptography background required.**
@@ -52,3 +53,5 @@ This bootcamp takes Web3 developers from zero FHE knowledge to shipping producti
 - 📋 [Full homework rubrics](resources/grading-rubrics.md)
 - 🗺 [Complete curriculum map](resources/curriculum-map.md)
 - 👩‍🏫 [Instructor notes](instructor-notes/README.md)
+- pitch Video:https://youtu.be/lqXmx0zp21M
+- gitbook website: https://israel-iszy2336s-organization.gitbook.io/fhevm-dev-hub/
