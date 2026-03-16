@@ -1,4 +1,4 @@
-# ✅ Quiz — Advanced Examples
+# ✅ Quiz  Advanced Examples
 
 Covers: BlindAuction, HiddenVoting, AMM, ERC7984.
 
@@ -14,7 +14,7 @@ Covers: BlindAuction, HiddenVoting, AMM, ERC7984.
 <details>
 <summary>Show Answer</summary>
 
-✅ **B — `FHE.gt` + `FHE.select` updates the highest bid in a branch-free way**
+✅ **B  `FHE.gt` + `FHE.select` updates the highest bid in a branch-free way**
 
 `ebool isHigher = FHE.gt(newBid, highestBid)` then `FHE.select(isHigher, newBid, highestBid)` updates the highest bid without revealing which bid is currently winning.
 
@@ -32,7 +32,7 @@ Covers: BlindAuction, HiddenVoting, AMM, ERC7984.
 <details>
 <summary>Show Answer</summary>
 
-✅ **B — `FHE.add` increments the running totals on every vote submission**
+✅ **B  `FHE.add` increments the running totals on every vote submission**
 
 Adding `vote` (1 or 0) to `votesFor` and `1 - vote` to `votesAgainst` keeps both tallies updated without revealing individual votes.
 
@@ -43,14 +43,14 @@ Adding `vote` (1 or 0) to `votesFor` and `1 - vote` to `votesAgainst` keeps both
 **Q3. Why does `FHEAMMSimple` use public reserves instead of encrypted reserves?**
 
 - A) Encrypted reserves would make swaps slower
-- B) FHE.div requires a plaintext denominator — encrypted reserves would make the denominator encrypted
+- B) FHE.div requires a plaintext denominator  encrypted reserves would make the denominator encrypted
 - C) Public reserves are required by the ERC7984 standard
 - D) The Zama Devnet doesn't support encrypted state variables
 
 <details>
 <summary>Show Answer</summary>
 
-✅ **B — FHE.div requires a plaintext denominator — encrypted reserves would make the denominator encrypted**
+✅ **B  FHE.div requires a plaintext denominator  encrypted reserves would make the denominator encrypted**
 
 The constant product formula `amountOut = (reserveB × amountIn) / (reserveA + amountIn)` has an encrypted denominator when `amountIn` is encrypted. Since `FHE.div(encrypted, encrypted)` is not supported, reserves must be public.
 
@@ -68,7 +68,7 @@ The constant product formula `amountOut = (reserveB × amountIn) / (reserveA + a
 <details>
 <summary>Show Answer</summary>
 
-✅ **B — ERC7984 balances and transfer amounts are encrypted; ERC20 are public**
+✅ **B  ERC7984 balances and transfer amounts are encrypted; ERC20 are public**
 
 ERC7984 is the confidential token standard for FHEVM. All financial values are `euint64` handles instead of public `uint256` values.
 
@@ -86,7 +86,7 @@ ERC7984 is the confidential token standard for FHEVM. All financial values are `
 <details>
 <summary>Show Answer</summary>
 
-✅ **B — A KYC check plus the vesting release condition**
+✅ **B  A KYC check plus the vesting release condition**
 
 The claim function requires both that the caller is KYC-verified and that tokens have vested, combining compliance and time-based logic.
 

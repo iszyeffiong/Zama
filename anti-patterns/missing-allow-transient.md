@@ -1,6 +1,6 @@
 # Missing allowTransient in Multi-Contract Flows
 
-**Severity:** High — cross-contract calls revert
+**Severity:** High  cross-contract calls revert
 
 ## The Problem
 
@@ -9,9 +9,9 @@ When Contract A calls Contract B and passes an encrypted handle, Contract B need
 ## Wrong
 
 ```solidity
-// Contract A — token
+// Contract A  token
 function swap(address swapContract) external {
-    // ❌ No permission granted — swapContract cannot use the handle
+    // ❌ No permission granted  swapContract cannot use the handle
     ISwap(swapContract).execute(balances[msg.sender]);
 }
 ```
@@ -19,14 +19,14 @@ function swap(address swapContract) external {
 ## Correct
 
 ```solidity
-// Contract A — token
+// Contract A  token
 function swap(address swapContract) external {
     // ✅ Grant one-transaction permission before calling
     FHE.allowTransient(balances[msg.sender], swapContract);
     ISwap(swapContract).execute(balances[msg.sender]);
 }
 
-// Contract B — swap
+// Contract B  swap
 function execute(euint64 amount) external {
     // amount is usable here because of allowTransient
     euint64 result = FHE.mul(amount, FHE.asEuint64(2));

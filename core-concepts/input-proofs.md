@@ -13,8 +13,8 @@ A proof proves: *"This ciphertext was encrypted specifically for `contractAddres
 ```solidity
 function placeBid(externalEuint64 encryptedBid, bytes calldata inputProof) external {
     // FHE.fromExternal validates that the proof matches:
-    // - address(this) — this specific contract
-    // - msg.sender — this specific caller
+    // - address(this)  this specific contract
+    // - msg.sender  this specific caller
     euint64 bid = FHE.fromExternal(encryptedBid, inputProof);
     // bid is now a verified, usable handle
 }
@@ -59,16 +59,16 @@ const encrypted = await fhevm
 
 | Attack | Without proofs | With proofs |
 |---|---|---|
-| Cross-contract replay | Ciphertext works on any contract | Rejected — wrong contract |
-| Cross-user replay | Alice's input submittable by Bob | Rejected — wrong sender |
-| Forged inputs | Any ciphertext accepted | Rejected — invalid proof |
+| Cross-contract replay | Ciphertext works on any contract | Rejected  wrong contract |
+| Cross-user replay | Alice's input submittable by Bob | Rejected  wrong sender |
+| Forged inputs | Any ciphertext accepted | Rejected  invalid proof |
 
 ## Common Pitfall
 
 Generating the proof for the wrong contract or user address will cause `FHE.fromExternal` to revert:
 
 ```typescript
-// ❌ WRONG — proof bound to wrong address
+// ❌ WRONG  proof bound to wrong address
 const encrypted = await fhevm
   .createEncryptedInput(wrongContractAddress, userAddress)
   .add64(value)

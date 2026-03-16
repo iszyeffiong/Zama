@@ -37,5 +37,5 @@
 
 | Network | Description |
 |---|---|
-| Local Hardhat | FHEVM mock — fast testing, no real FHE |
+| Local Hardhat | FHEVM mock  fast testing, no real FHE |
 | Zama Devnet | Sepolia-based testnet with real FHE coprocessor |

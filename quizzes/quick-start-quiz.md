@@ -1,4 +1,4 @@
-# ✅ Quiz — Quick Start
+# ✅ Quiz  Quick Start
 
 ---
 
@@ -12,7 +12,7 @@
 <details>
 <summary>Show Answer</summary>
 
-✅ **C — v20.0.0**
+✅ **C  v20.0.0**
 
 Node.js v20 or higher is required. The latest LTS version is recommended.
 
@@ -30,7 +30,7 @@ Node.js v20 or higher is required. The latest LTS version is recommended.
 <details>
 <summary>Show Answer</summary>
 
-✅ **C — `npx create-fhevm-example blind-auction`**
+✅ **C  `npx create-fhevm-example blind-auction`**
 
 Pass the example name directly for single example mode.
 
@@ -48,7 +48,7 @@ Pass the example name directly for single example mode.
 <details>
 <summary>Show Answer</summary>
 
-✅ **B — Injects FHE dependencies into an existing Hardhat project**
+✅ **B  Injects FHE dependencies into an existing Hardhat project**
 
 Running `npx create-fhevm-example --add` inside a Hardhat project adds `@fhevm/solidity`, updates `hardhat.config.ts`, and injects a sample contract.
 
@@ -66,7 +66,7 @@ Running `npx create-fhevm-example --add` inside a Hardhat project adds `@fhevm/s
 <details>
 <summary>Show Answer</summary>
 
-✅ **D — `gaming`**
+✅ **D  `gaming`**
 
 The `gaming` category bundles 4 examples: Poker, Lottery, Rock Paper Scissors, and Blackjack.
 
@@ -76,15 +76,15 @@ The `gaming` category bundles 4 examples: Poker, Lottery, Rock Paper Scissors, a
 
 **Q5. Do you need to install `create-fhevm-example` globally before using it?**
 
-- A) Yes — `npm install -g create-fhevm-example` is required
-- B) No — `npx` runs it directly without a global install
-- C) Yes — but only on Windows
-- D) No — it comes bundled with Hardhat
+- A) Yes  `npm install -g create-fhevm-example` is required
+- B) No  `npx` runs it directly without a global install
+- C) Yes  but only on Windows
+- D) No  it comes bundled with Hardhat
 
 <details>
 <summary>Show Answer</summary>
 
-✅ **B — No — `npx` runs it directly without a global install**
+✅ **B  No  `npx` runs it directly without a global install**
 
 `npx` (included with Node.js) handles everything. No global installation needed.
 

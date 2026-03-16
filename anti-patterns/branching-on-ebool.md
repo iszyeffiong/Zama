@@ -1,16 +1,16 @@
 # Branching on Encrypted Booleans
 
-**Severity:** Critical — compile error or incorrect logic
+**Severity:** Critical  compile error or incorrect logic
 
 ## The Problem
 
-`ebool` is an encrypted boolean — it cannot be used in a Solidity `if()` statement. Attempting to do so will either fail to compile or produce undefined behavior.
+`ebool` is an encrypted boolean  it cannot be used in a Solidity `if()` statement. Attempting to do so will either fail to compile or produce undefined behavior.
 
 ## Wrong
 
 ```solidity
 ebool isAdult = FHE.ge(age, FHE.asEuint8(18));
-if (isAdult) { ... }  // ❌ Does not compile — ebool is not bool
+if (isAdult) { ... }  // ❌ Does not compile  ebool is not bool
 ```
 
 ## Correct
@@ -30,7 +30,7 @@ euint64 accessLevel = FHE.select(
 
 ## Why Branch-Free?
 
-FHE.select evaluates both branches. This is intentional — it prevents timing or gas-based side channels that could leak which branch was taken.
+FHE.select evaluates both branches. This is intentional  it prevents timing or gas-based side channels that could leak which branch was taken.
 
 
 ---

@@ -1,8 +1,8 @@
 # 🔐 FHEVM Dev Hub
 
-> *The complete guide to building privacy-preserving smart contracts on FHEVM — examples, concepts, patterns, and tooling in one place.*
+> *The complete guide to building privacy-preserving smart contracts on FHEVM  examples, concepts, patterns, and tooling in one place.*
 
-Welcome to **FHEVM Dev Hub** — the most complete resource for building privacy-preserving smart contracts on FHEVM.
+Welcome to **FHEVM Dev Hub**  the most complete resource for building privacy-preserving smart contracts on FHEVM.
 
 This GitBook synthesizes content from three community resources:
 - [fhEVM Hub](https://sun-labs.gitbook.io/fhevm-hub) by Sun Labs
@@ -14,7 +14,7 @@ This GitBook synthesizes content from three community resources:
 | Section | Description |
 |---|---|
 | [What is FHEVM?](basics/what-is-fhevm.md) | High-level overview of FHE on-chain |
-| [FHE 101](basics/fhe-101.md) | Plain-language primer — no cryptography required |
+| [FHE 101](basics/fhe-101.md) | Plain-language primer  no cryptography required |
 | [Quick Start](basics/quick-start.md) | Scaffold a project in under 30 seconds |
 | [Core Concepts](core-concepts/encrypted-types.md) | Types, handles, proofs, permissions, decryption |
 | [FHE Operations](fhe-operations/arithmetic.md) | Full operations reference |

@@ -4,7 +4,7 @@
 
 ## What It Demonstrates
 
-`FHE.select` is the FHEVM equivalent of a ternary operator. Both branches are always evaluated — the encrypted condition picks which result is returned without revealing which path was taken.
+`FHE.select` is the FHEVM equivalent of a ternary operator. Both branches are always evaluated  the encrypted condition picks which result is returned without revealing which path was taken.
 
 ## Contract
 
@@ -31,7 +31,7 @@ contract FHEIfThenElse is ZamaEthereumConfig {
 
 ## Key Points
 
-- `ebool` cannot be used in a Solidity `if()` — always use `FHE.select`
+- `ebool` cannot be used in a Solidity `if()`  always use `FHE.select`
 - Both `a` and `b` are computed; only the selected result is returned
 - Grant permissions on the result handle, not on the input handles
 

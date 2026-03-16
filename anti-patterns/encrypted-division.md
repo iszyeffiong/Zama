@@ -1,6 +1,6 @@
 # Dividing by an Encrypted Value
 
-**Severity:** Critical — unsupported operation
+**Severity:** Critical  unsupported operation
 
 ## The Problem
 
@@ -24,12 +24,12 @@ euint64 result = FHE.div(numerator, uint64(1000));
 
 The constant product formula requires: `amountOut = (reserveB × amountIn) / (reserveA + amountIn)`
 
-When `amountIn` is encrypted, the denominator becomes encrypted — making FHE.div impossible.
+When `amountIn` is encrypted, the denominator becomes encrypted  making FHE.div impossible.
 
-**Workaround 1 — Public reserves (simple):**
+**Workaround 1  Public reserves (simple):**
 Keep reserves public so the denominator is always plaintext. Swap amounts remain private.
 
-**Workaround 2 — Masked fractions (production):**
+**Workaround 2  Masked fractions (production):**
 Store a masked numerator/denominator. An off-chain oracle decrypts the masked denominator, then the swap settles with a proof of correct decryption.
 
 See [Confidential AMM](../examples/defi/fhe-amm-simple.md) for a full implementation of Workaround 1.

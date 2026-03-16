@@ -20,7 +20,7 @@ function compute(externalEuint64 input, bytes calldata proof) external {
 }
 
 function getResult() external view returns (euint64) {
-    return results[msg.sender];  // Returns handle — NOT plaintext
+    return results[msg.sender];  // Returns handle  NOT plaintext
 }
 ```
 
@@ -46,7 +46,7 @@ console.log("Result:", plaintext.toString());
 
 ## Public Decryption
 
-Used when a value should be revealed to everyone after an on-chain condition — auction ends, vote closes, game resolves.
+Used when a value should be revealed to everyone after an on-chain condition  auction ends, vote closes, game resolves.
 
 ### Contract side
 
@@ -54,7 +54,7 @@ Used when a value should be revealed to everyone after an on-chain condition —
 euint64 public winningBid;
 
 function revealWinner() external onlyAfterDeadline {
-    // Makes value readable by anyone — irreversible
+    // Makes value readable by anyone  irreversible
     FHE.makePubliclyDecryptable(winningBid);
 }
 ```
@@ -96,7 +96,7 @@ function getBalance() external view returns (uint64) {
     return uint64(euint64.unwrap(balances[msg.sender]));  // Returns handle, not balance
 }
 
-// ✅ Return the encrypted handle — decrypt off-chain
+// ✅ Return the encrypted handle  decrypt off-chain
 function getBalance() external view returns (euint64) {
     return balances[msg.sender];
 }

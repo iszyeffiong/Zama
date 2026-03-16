@@ -1,4 +1,4 @@
-# ✅ Quiz — Core Concepts
+# ✅ Quiz  Core Concepts
 
 Covers: Encrypted Types, Handles, Input Proofs, Access Control, Decryption Patterns.
 
@@ -14,9 +14,9 @@ Covers: Encrypted Types, Handles, Input Proofs, Access Control, Decryption Patte
 <details>
 <summary>Show Answer</summary>
 
-✅ **C — An opaque 256-bit handle pointing to a ciphertext**
+✅ **C  An opaque 256-bit handle pointing to a ciphertext**
 
-Encrypted types are handles — references to ciphertexts stored by the FHE coprocessor. They are not the values themselves.
+Encrypted types are handles  references to ciphertexts stored by the FHE coprocessor. They are not the values themselves.
 
 </details>
 
@@ -32,7 +32,7 @@ Encrypted types are handles — references to ciphertexts stored by the FHE copr
 <details>
 <summary>Show Answer</summary>
 
-✅ **C — Future operations on that handle will fail silently**
+✅ **C  Future operations on that handle will fail silently**
 
 Without `allowThis`, the FHE coprocessor does not recognize the contract as authorized. This is the most common FHEVM mistake.
 
@@ -42,15 +42,15 @@ Without `allowThis`, the FHE coprocessor does not recognize the contract as auth
 
 **Q3. You call `FHE.add(a, b)` which produces handle `c`. Do the permissions from `a` and `b` transfer to `c`?**
 
-- A) Yes — permissions always propagate to derived handles
-- B) Yes — but only `allowThis` propagates, not `allow(user)`
-- C) No — you must explicitly grant permissions on every new handle
+- A) Yes  permissions always propagate to derived handles
+- B) Yes  but only `allowThis` propagates, not `allow(user)`
+- C) No  you must explicitly grant permissions on every new handle
 - D) Only if `a` and `b` have identical permissions
 
 <details>
 <summary>Show Answer</summary>
 
-✅ **C — No — you must explicitly grant permissions on every new handle**
+✅ **C  No  you must explicitly grant permissions on every new handle**
 
 Every FHE operation creates a brand new handle. Permissions never propagate automatically. Always re-grant `allowThis` and `allow` on new handles.
 
@@ -68,7 +68,7 @@ Every FHE operation creates a brand new handle. Permissions never propagate auto
 <details>
 <summary>Show Answer</summary>
 
-✅ **B — The encrypted value to a specific contract address and sender address**
+✅ **B  The encrypted value to a specific contract address and sender address**
 
 Input proofs prevent replay attacks. A proof generated for Contract A by Alice will be rejected if submitted to Contract B or by Bob.
 
@@ -86,9 +86,9 @@ Input proofs prevent replay attacks. A proof generated for Contract A by Alice w
 <details>
 <summary>Show Answer</summary>
 
-✅ **C — `FHE.allowTransient(handle, otherContract)`**
+✅ **C  `FHE.allowTransient(handle, otherContract)`**
 
-`allowTransient` grants permission that lasts only for the current transaction — perfect for cross-contract flows.
+`allowTransient` grants permission that lasts only for the current transaction  perfect for cross-contract flows.
 
 </details>
 
@@ -104,7 +104,7 @@ Input proofs prevent replay attacks. A proof generated for Contract A by Alice w
 <details>
 <summary>Show Answer</summary>
 
-✅ **B — An encrypted handle they must decrypt off-chain**
+✅ **B  An encrypted handle they must decrypt off-chain**
 
 View functions return handles. Decryption always happens off-chain using the FHEVM SDK.
 

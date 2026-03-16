@@ -1,6 +1,6 @@
 # View Functions on Encrypted Values
 
-**Severity:** Medium — API confusion, unexpected client behavior
+**Severity:** Medium  API confusion, unexpected client behavior
 
 ## The Problem
 
@@ -9,7 +9,7 @@ A view function that returns an encrypted value returns a **handle** (a uint256 
 ## Wrong
 
 ```solidity
-// ❌ Misleading return type — returns a handle, not a balance
+// ❌ Misleading return type  returns a handle, not a balance
 function getBalance() external view returns (uint64) {
     return uint64(euint64.unwrap(balances[msg.sender]));
 }
@@ -18,7 +18,7 @@ function getBalance() external view returns (uint64) {
 ## Correct
 
 ```solidity
-// ✅ Explicit — clearly returns an encrypted handle
+// ✅ Explicit  clearly returns an encrypted handle
 function getBalance() external view returns (euint64) {
     return balances[msg.sender];
 }

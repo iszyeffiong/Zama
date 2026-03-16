@@ -10,7 +10,7 @@ An educational Automated Market Maker (AMM) with encrypted swap inputs and outpu
 
 The constant product formula is: `amountOut = (reserveB × amountIn) / (reserveA + amountIn)`
 
-When `amountIn` is encrypted, the denominator `(reserveA + amountIn)` becomes encrypted — but `FHE.div` requires a **plaintext divisor**.
+When `amountIn` is encrypted, the denominator `(reserveA + amountIn)` becomes encrypted  but `FHE.div` requires a **plaintext divisor**.
 
 **This example uses public reserves** so the denominator stays plaintext:
 
@@ -24,7 +24,7 @@ When `amountIn` is encrypted, the denominator `(reserveA + amountIn)` becomes en
 
 ```solidity
 contract FHEAMMSimple is ZamaEthereumConfig {
-    uint64 public reserveA;   // Public — required for FHE.div
+    uint64 public reserveA;   // Public  required for FHE.div
     uint64 public reserveB;
     bool   public initialized;
 
@@ -64,7 +64,7 @@ contract FHEAMMSimple is ZamaEthereumConfig {
 | Missing `allowThis` | Breaks subsequent use of `amountOut` |
 | Uninitialized pool | Must call `addLiquidity` first |
 
-## Production Workaround — Masked Fractions
+## Production Workaround  Masked Fractions
 
 For fully confidential reserves in production AMMs:
 1. Store a masked numerator/denominator pair

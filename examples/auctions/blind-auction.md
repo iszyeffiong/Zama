@@ -4,14 +4,14 @@
 
 ## What It Demonstrates
 
-A complete sealed-bid auction where all bids remain private until the auction ends. The highest bid is tracked on-chain using a branch-free comparison — without revealing individual bid amounts.
+A complete sealed-bid auction where all bids remain private until the auction ends. The highest bid is tracked on-chain using a branch-free comparison  without revealing individual bid amounts.
 
 ## Key FHE Operations
 
-- `FHE.fromExternal` — validate and store encrypted bids
-- `FHE.gt` — compare incoming bid to current highest
-- `FHE.select` — branch-free update of highest bid
-- `FHE.makePubliclyDecryptable` — reveal winner after deadline
+- `FHE.fromExternal`  validate and store encrypted bids
+- `FHE.gt`  compare incoming bid to current highest
+- `FHE.select`  branch-free update of highest bid
+- `FHE.makePubliclyDecryptable`  reveal winner after deadline
 
 ## Contract
 

@@ -1,6 +1,6 @@
 # Comparison Operations
 
-All comparison operations return `ebool` — encrypted booleans.
+All comparison operations return `ebool`  encrypted booleans.
 
 ```solidity
 ebool eq  = FHE.eq(a, b);   // a == b
@@ -16,11 +16,11 @@ ebool ge  = FHE.ge(a, b);   // a >= b
 An `ebool` cannot be used in a Solidity `if()` statement. Use `FHE.select()` instead.
 
 ```solidity
-// ❌ WRONG — compile error or undefined behavior
+// ❌ WRONG  compile error or undefined behavior
 ebool isAdult = FHE.ge(age, FHE.asEuint8(18));
 if (isAdult) { ... }
 
-// ✅ CORRECT — branch-free selection
+// ✅ CORRECT  branch-free selection
 ebool isAdult = FHE.ge(age, FHE.asEuint8(18));
 euint64 access = FHE.select(isAdult, FHE.asEuint64(1), FHE.asEuint64(0));
 ```

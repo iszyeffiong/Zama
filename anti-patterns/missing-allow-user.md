@@ -1,6 +1,6 @@
 # Missing allow(user)
 
-**Severity:** High — user receives a handle they cannot decrypt
+**Severity:** High  user receives a handle they cannot decrypt
 
 ## The Problem
 

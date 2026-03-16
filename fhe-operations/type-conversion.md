@@ -24,7 +24,7 @@ euint64 large  = FHE.asEuint64(1000);
 euint8  narrow = FHE.asEuint8(large);    // truncates if > 255
 ```
 
-> ⚠️ Downcasting truncates silently — there is no overflow check in FHE operations. Ensure values fit within the target type's range.
+> ⚠️ Downcasting truncates silently  there is no overflow check in FHE operations. Ensure values fit within the target type's range.
 
 ## Converting from User Input
 

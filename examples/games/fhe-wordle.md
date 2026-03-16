@@ -8,9 +8,9 @@ A privacy-preserving Wordle clone. The target word is stored encrypted on-chain.
 
 ## Key FHE Operations
 
-- `FHE.eq` — compare each guess letter to the encrypted target letter
-- `FHE.select` — branch-free feedback assignment (correct / present / absent)
-- `FHE.and`, `FHE.or` — combine multiple conditions for "letter present" check
+- `FHE.eq`  compare each guess letter to the encrypted target letter
+- `FHE.select`  branch-free feedback assignment (correct / present / absent)
+- `FHE.and`, `FHE.or`  combine multiple conditions for "letter present" check
 
 ## Core Logic
 
@@ -37,7 +37,7 @@ for (uint i = 0; i < 5; i++) {
 ## Privacy Properties
 
 - The target word is never revealed, even to the contract executor
-- Feedback is encrypted — only the guessing player can see their results
+- Feedback is encrypted  only the guessing player can see their results
 - No information is leaked about positions that aren't guessed correctly
 
 ```bash

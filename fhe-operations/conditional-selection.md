@@ -9,7 +9,7 @@ euint64 result = FHE.select(condition, trueValue, falseValue);
 // Equivalent to: result = condition ? trueValue : falseValue
 ```
 
-Both branches are always computed. The encrypted condition determines which result is kept — without revealing which branch was taken.
+Both branches are always computed. The encrypted condition determines which result is kept  without revealing which branch was taken.
 
 ## Examples
 
@@ -32,7 +32,7 @@ euint64 result = FHE.select(
 );
 ```
 
-### Blind auction — track highest bid
+### Blind auction  track highest bid
 
 ```solidity
 function placeBid(externalEuint64 encryptedBid, bytes calldata proof) external {
@@ -70,9 +70,9 @@ function transfer(address to, externalEuint64 amount, bytes calldata proof) exte
 
 ## Key Properties
 
-- **Both branches are computed** — gas cost is constant regardless of condition
-- **No information leakage** — which branch was taken is never revealed
-- **Nested select is fine** — chain multiple `FHE.select` calls for complex logic
+- **Both branches are computed**  gas cost is constant regardless of condition
+- **No information leakage**  which branch was taken is never revealed
+- **Nested select is fine**  chain multiple `FHE.select` calls for complex logic
 
 
 ---

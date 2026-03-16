@@ -1,4 +1,4 @@
-# ✅ Quiz — FHE Operations
+# ✅ Quiz  FHE Operations
 
 ---
 
@@ -12,7 +12,7 @@
 <details>
 <summary>Show Answer</summary>
 
-✅ **C — `FHE.div(encryptedA, encryptedB)`**
+✅ **C  `FHE.div(encryptedA, encryptedB)`**
 
 FHEVM only supports `FHE.div(encrypted, plaintext)`. Dividing by an encrypted value is not supported.
 
@@ -30,7 +30,7 @@ FHEVM only supports `FHE.div(encrypted, plaintext)`. Dividing by an encrypted va
 <details>
 <summary>Show Answer</summary>
 
-✅ **B — `falseVal`**
+✅ **B  `falseVal`**
 
 `FHE.select` is the branch-free ternary: `condition ? trueVal : falseVal`. Both are always computed; the encrypted condition picks which is returned.
 
@@ -48,9 +48,9 @@ FHEVM only supports `FHE.div(encrypted, plaintext)`. Dividing by an encrypted va
 <details>
 <summary>Show Answer</summary>
 
-✅ **C — `ebool`**
+✅ **C  `ebool`**
 
-All comparison operations return `ebool` — an encrypted boolean. It cannot be used directly in a Solidity `if()`.
+All comparison operations return `ebool`  an encrypted boolean. It cannot be used directly in a Solidity `if()`.
 
 </details>
 
@@ -66,7 +66,7 @@ All comparison operations return `ebool` — an encrypted boolean. It cannot be 
 <details>
 <summary>Show Answer</summary>
 
-✅ **B — `ebool isZero = FHE.eq(balance, uint64(0))`**
+✅ **B  `ebool isZero = FHE.eq(balance, uint64(0))`**
 
 Mixed comparisons (encrypted vs plaintext) are supported. The result is an `ebool` which you then use with `FHE.select`.
 
@@ -74,7 +74,7 @@ Mixed comparisons (encrypted vs plaintext) are supported. The result is an `eboo
 
 ---
 
-**Q5. `FHE.div(FHE.asEuint64(7), 2)` — what is the result?**
+**Q5. `FHE.div(FHE.asEuint64(7), 2)`  what is the result?**
 
 - A) `3.5`
 - B) `4` (rounded up)
@@ -84,9 +84,9 @@ Mixed comparisons (encrypted vs plaintext) are supported. The result is an `eboo
 <details>
 <summary>Show Answer</summary>
 
-✅ **C — `3` (truncated)**
+✅ **C  `3` (truncated)**
 
-FHE division is integer division — it truncates, just like Solidity. There is no rounding.
+FHE division is integer division  it truncates, just like Solidity. There is no rounding.
 
 </details>
 
@@ -102,7 +102,7 @@ FHE division is integer division — it truncates, just like Solidity. There is 
 <details>
 <summary>Show Answer</summary>
 
-✅ **B — `FHE.select(isCompliant, amount, FHE.asEuint64(0))`**
+✅ **B  `FHE.select(isCompliant, amount, FHE.asEuint64(0))`**
 
 `FHE.select` is the correct pattern for all encrypted conditionals. It evaluates both branches and returns the one matching the encrypted condition.
 

@@ -1,6 +1,6 @@
 # Wrong Input Proof Binding
 
-**Severity:** High — transaction reverts unexpectedly
+**Severity:** High  transaction reverts unexpectedly
 
 ## The Problem
 

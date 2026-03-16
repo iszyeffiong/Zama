@@ -1,10 +1,10 @@
-# ERC7984Example — Minimal Confidential Token
+# ERC7984Example  Minimal Confidential Token
 
 **Difficulty:** 🟢 Beginner | **Concept:** Confidential mint + transfer
 
 ## What It Demonstrates
 
-The simplest possible confidential token: encrypted balances, encrypted minting, encrypted transfers. No compliance, no wrappers — just the core ERC7984 lifecycle.
+The simplest possible confidential token: encrypted balances, encrypted minting, encrypted transfers. No compliance, no wrappers  just the core ERC7984 lifecycle.
 
 ## Contract
 
@@ -33,7 +33,7 @@ contract ConfidentialToken is ERC7984, ZamaEthereumConfig {
 ## Key Points
 
 - `_mint` handles `allowThis` and `allow` internally via ERC7984 base
-- `balanceOf` returns a `euint64` handle — decrypt off-chain
+- `balanceOf` returns a `euint64` handle  decrypt off-chain
 - Transfers encrypt the amount in the transaction
 
 ```bash

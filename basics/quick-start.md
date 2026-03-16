@@ -1,16 +1,16 @@
-# Quick Start — Scaffold in Seconds
+# Quick Start  Scaffold in Seconds
 
-The `create-fhevm-example` CLI scaffolds a fully configured FHEVM project in one command — Hardhat, encrypted types, FHE keys, network config, and tests all included.
+The `create-fhevm-example` CLI scaffolds a fully configured FHEVM project in one command  Hardhat, encrypted types, FHE keys, network config, and tests all included.
 
 ## Requirements
 
 - Node.js **v20.0.0** or higher (we recommend the latest LTS)
-- No global installs needed — `npx` works out of the box
+- No global installs needed  `npx` works out of the box
 
 ## Bootstrap a New Project
 
 ```bash
-# Interactive wizard — recommended for first time
+# Interactive wizard  recommended for first time
 npx create-fhevm-example
 
 # Or specify an example directly
@@ -45,7 +45,7 @@ npx create-fhevm-example --category advanced
 | `openzeppelin` | 5 | ERC7984, wrappers, swaps, vesting |
 | `advanced` | 6 | Blind auction, escrow, voting, KYC, payroll, order book |
 
-### 3. Smart Injection Mode — upgrade an existing project
+### 3. Smart Injection Mode  upgrade an existing project
 
 Already have a Hardhat project? Add FHE in one command:
 
@@ -102,7 +102,7 @@ Projects come pre-configured for:
 
 | Network | Description |
 |---|---|
-| Local (Hardhat) | FHEVM mock — fast local testing, no real FHE |
+| Local (Hardhat) | FHEVM mock  fast local testing, no real FHE |
 | Zama Devnet | Sepolia-based testnet with real FHE coprocessor |
 
 Add more networks in `hardhat.config.ts`.
@@ -110,13 +110,13 @@ Add more networks in `hardhat.config.ts`.
 ## FAQ
 
 **Does this work with existing Hardhat projects?**
-Yes — use `--add` inside your project directory.
+Yes  use `--add` inside your project directory.
 
 **Can I use this offline?**
 Yes for scaffolding. Only `npm install` needs internet to download dependencies.
 
 **Do I need to install anything globally?**
-No — `npx` handles everything.
+No  `npx` handles everything.
 
 
 ---

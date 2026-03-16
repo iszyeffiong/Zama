@@ -1,6 +1,6 @@
 # Missing allowThis
 
-**Severity:** Critical — breaks contract functionality silently
+**Severity:** Critical  breaks contract functionality silently
 
 ## The Problem
 
@@ -16,7 +16,7 @@ function store(externalEuint64 input, bytes calldata proof) external {
 }
 
 function increment() external {
-    // ❌ This will fail — contract has no permission on storedValue
+    // ❌ This will fail  contract has no permission on storedValue
     euint64 newVal = FHE.add(storedValue, FHE.asEuint64(1));
 }
 ```

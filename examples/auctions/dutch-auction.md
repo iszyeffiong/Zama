@@ -17,8 +17,8 @@ The key insight: the sale condition is evaluated with FHE without revealing the 
 
 ## Key FHE Operations
 
-- `FHE.ge(plaintextCurrentPrice, encryptedReserve)` — check if price is at or above reserve
-- `FHE.select` — branch-free: either complete the sale or reject
+- `FHE.ge(plaintextCurrentPrice, encryptedReserve)`  check if price is at or above reserve
+- `FHE.select`  branch-free: either complete the sale or reject
 
 ```bash
 npx create-fhevm-example dutch-auction

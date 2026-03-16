@@ -17,7 +17,7 @@ FHEVM introduces a family of encrypted Solidity types. These replace their plain
 
 ## Important: Types are Handles
 
-These types are **opaque 256-bit handles** — references to ciphertexts stored by the FHE coprocessor. They are not the values themselves.
+These types are **opaque 256-bit handles**  references to ciphertexts stored by the FHE coprocessor. They are not the values themselves.
 
 ```solidity
 euint64 balance = FHE.asEuint64(100);

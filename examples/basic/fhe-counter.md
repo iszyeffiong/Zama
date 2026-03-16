@@ -4,7 +4,7 @@
 
 ## What It Demonstrates
 
-How to persist and update encrypted state across multiple transactions. Each operation creates a new handle — you must re-grant `allowThis` on every new handle.
+How to persist and update encrypted state across multiple transactions. Each operation creates a new handle  you must re-grant `allowThis` on every new handle.
 
 ## Contract
 
@@ -43,7 +43,7 @@ contract FHECounter is ZamaEthereumConfig {
 
 ## Key Points
 
-- `FHE.add` returns a **new** handle — the old one is unchanged
+- `FHE.add` returns a **new** handle  the old one is unchanged
 - You must call `FHE.allowThis` on the new handle before storing
 - Permissions do not transfer from old handle to new one automatically
 

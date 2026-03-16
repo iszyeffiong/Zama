@@ -4,7 +4,7 @@
 
 ## What It Demonstrates
 
-A contract that verifies a user is 18 or older — without ever learning or storing their actual age. Uses `FHE.ge` for the comparison and stores the `ebool` result.
+A contract that verifies a user is 18 or older  without ever learning or storing their actual age. Uses `FHE.ge` for the comparison and stores the `ebool` result.
 
 ## Contract
 
@@ -18,7 +18,7 @@ contract EncryptedAgeVerification is ZamaEthereumConfig {
         FHE.allowThis(age);
         ages[msg.sender] = age;
 
-        // age >= 18 — result is encrypted, only user can verify
+        // age >= 18  result is encrypted, only user can verify
         ebool adult = FHE.ge(age, FHE.asEuint8(18));
         FHE.allowThis(adult);
         FHE.allow(adult, msg.sender);

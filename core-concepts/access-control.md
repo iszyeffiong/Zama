@@ -1,6 +1,6 @@
 # Access Control & Permissions
 
-The FHE permission system controls who can use and decrypt a ciphertext. Every handle starts with no permissions — you must explicitly grant them.
+The FHE permission system controls who can use and decrypt a ciphertext. Every handle starts with no permissions  you must explicitly grant them.
 
 ## The Three Permission Functions
 
@@ -52,7 +52,7 @@ Revoking does **not** invalidate previously obtained ciphertexts. If a user alre
 ```solidity
 // Even after revoking, handles the user already obtained remain decryptable
 function revokeAccess(address user) external onlyOwner {
-    // This prevents future grants only — cannot retroactively revoke
+    // This prevents future grants only  cannot retroactively revoke
 }
 ```
 
@@ -61,13 +61,13 @@ function revokeAccess(address user) external onlyOwner {
 When passing handles between contracts, use `allowTransient`:
 
 ```solidity
-// Contract A — token
+// Contract A  token
 function transferTo(address swapContract) external {
     FHE.allowTransient(balances[msg.sender], swapContract);
     ISwap(swapContract).receiveToken(balances[msg.sender]);
 }
 
-// Contract B — swap
+// Contract B  swap
 function receiveToken(euint64 amount) external {
     // Can use amount here because of allowTransient
     // After this transaction ends, access expires

@@ -1,4 +1,4 @@
-# ✅ Quiz — What is FHEVM?
+# ✅ Quiz  What is FHEVM?
 
 Test your understanding before moving on.
 
@@ -14,7 +14,7 @@ Test your understanding before moving on.
 <details>
 <summary>Show Answer</summary>
 
-✅ **B — Fully Homomorphic Encryption Virtual Machine**
+✅ **B  Fully Homomorphic Encryption Virtual Machine**
 
 FHEVM is a system that allows smart contracts to compute on encrypted data without revealing it.
 
@@ -32,7 +32,7 @@ FHEVM is a system that allows smart contracts to compute on encrypted data witho
 <details>
 <summary>Show Answer</summary>
 
-✅ **C — It stores ciphertexts and executes FHE operations off-chain**
+✅ **C  It stores ciphertexts and executes FHE operations off-chain**
 
 Smart contracts submit operation requests to the coprocessor, which computes on encrypted data and returns new encrypted handles.
 
@@ -50,7 +50,7 @@ Smart contracts submit operation requests to the coprocessor, which computes on 
 <details>
 <summary>Show Answer</summary>
 
-✅ **C — Processing encrypted auction bids without revealing amounts**
+✅ **C  Processing encrypted auction bids without revealing amounts**
 
 FHEVM is designed to keep sensitive values like bids, votes, balances, and identity attributes private on-chain.
 
@@ -68,7 +68,7 @@ FHEVM is designed to keep sensitive values like bids, votes, balances, and ident
 <details>
 <summary>Show Answer</summary>
 
-✅ **B — Always off-chain by an authorized party**
+✅ **B  Always off-chain by an authorized party**
 
 Contracts store and operate on handles. Decryption is done off-chain by whoever holds the correct permission.
 

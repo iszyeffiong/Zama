@@ -3,8 +3,8 @@
 ## Getting Started
 * [Introduction](README.md)
 * [What is FHEVM?](basics/what-is-fhevm.md)
-* [FHE 101 — Plain Language Primer](basics/fhe-101.md)
-* [Quick Start — Scaffold in Seconds](basics/quick-start.md)
+* [FHE 101  Plain Language Primer](basics/fhe-101.md)
+* [Quick Start  Scaffold in Seconds](basics/quick-start.md)
 
 ## Core Concepts
 * [Encrypted Types](core-concepts/encrypted-types.md)
@@ -91,7 +91,7 @@
 * [SwapERC7984ToERC7984](examples/openzeppelin/swap-confidential-to-confidential.md)
 * [SwapERC7984ToERC20](examples/openzeppelin/swap-confidential-to-public.md)
 * [VestingWalletConfidentialExample](examples/openzeppelin/vesting-wallet.md)
-* [WETHc — Confidential ETH Wrapper](examples/openzeppelin/wethc.md)
+* [WETHc  Confidential ETH Wrapper](examples/openzeppelin/wethc.md)
 * [ERC7984Rwa](examples/openzeppelin/erc7984-rwa.md)
 * [ERC7821 Executor](examples/openzeppelin/erc7821-executor.md)
 

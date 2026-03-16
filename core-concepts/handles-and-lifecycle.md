@@ -11,7 +11,7 @@ euint64 value = FHE.fromExternal(encryptedInput, inputProof);
 // From a plaintext constant
 euint64 zero = FHE.asEuint64(0);
 
-// From an FHE operation — creates a derived handle
+// From an FHE operation  creates a derived handle
 euint64 result = FHE.add(a, b);
 ```
 

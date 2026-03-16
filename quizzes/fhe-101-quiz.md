@@ -1,4 +1,4 @@
-# ✅ Quiz — FHE 101
+# ✅ Quiz  FHE 101
 
 ---
 
@@ -12,7 +12,7 @@
 <details>
 <summary>Show Answer</summary>
 
-✅ **B — A locked box that can do math without being opened**
+✅ **B  A locked box that can do math without being opened**
 
 You encrypt a value (put it in the box), the blockchain computes on it, and only authorized parties can open the box to see the result.
 
@@ -30,7 +30,7 @@ You encrypt a value (put it in the box), the blockchain computes on it, and only
 <details>
 <summary>Show Answer</summary>
 
-✅ **C — `FHE.allow(value, userAddress)`**
+✅ **C  `FHE.allow(value, userAddress)`**
 
 This grants a specific address the right to decrypt that handle off-chain.
 
@@ -48,7 +48,7 @@ This grants a specific address the right to decrypt that handle off-chain.
 <details>
 <summary>Show Answer</summary>
 
-✅ **B — Granting one-transaction permission to another contract**
+✅ **B  Granting one-transaction permission to another contract**
 
 `allowTransient` is used in multi-contract flows where one contract needs to pass a handle to another for a single transaction only.
 
@@ -58,7 +58,7 @@ This grants a specific address the right to decrypt that handle off-chain.
 
 **Q4. When is it safe to use `FHE.makePubliclyDecryptable`?**
 
-- A) Always — it's the standard way to return values
+- A) Always  it's the standard way to return values
 - B) Only when the value is intentionally meant to be revealed publicly
 - C) Only for values under 64 bits
 - D) Only inside constructor functions
@@ -66,7 +66,7 @@ This grants a specific address the right to decrypt that handle off-chain.
 <details>
 <summary>Show Answer</summary>
 
-✅ **B — Only when the value is intentionally meant to be revealed publicly**
+✅ **B  Only when the value is intentionally meant to be revealed publicly**
 
 `makePubliclyDecryptable` is irreversible. Use it only for things like auction winners or vote tallies that are meant to be public after a reveal phase.
 
@@ -84,9 +84,9 @@ This grants a specific address the right to decrypt that handle off-chain.
 <details>
 <summary>Show Answer</summary>
 
-✅ **C — Using an `ebool` directly in a Solidity `if()` statement**
+✅ **C  Using an `ebool` directly in a Solidity `if()` statement**
 
-`ebool` is an encrypted boolean — it cannot be evaluated by Solidity's control flow. Use `FHE.select()` instead.
+`ebool` is an encrypted boolean  it cannot be evaluated by Solidity's control flow. Use `FHE.select()` instead.
 
 </details>
 

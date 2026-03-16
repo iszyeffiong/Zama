@@ -29,7 +29,7 @@ contract EncryptSingleValue is ZamaEthereumConfig {
     }
 
     function retrieve() external view returns (euint64) {
-        return storedValue;  // Returns handle — decrypt off-chain
+        return storedValue;  // Returns handle  decrypt off-chain
     }
 }
 ```
